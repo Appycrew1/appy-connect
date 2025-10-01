@@ -14,7 +14,7 @@ export default function Contact() {
     e.preventDefault();
     setOk(null); setErr(null);
     const { error } = await supabase.from('contact_messages').insert([{ name, email, message }]);
-    if (error) setErr(error.message); else setOk('Thanks! We\'ll get back to you.');
+    if (error) setErr(error.message); else setOk("Thanks! We'll get back to you.");
   }
 
   return (
