@@ -4,3 +4,15 @@
 
 html, body { height: 100%; }
 body { margin: 0; }
+:root { --brand:#111827; }
+a { text-underline-offset: 2px; }
+
+
+/* ---- Ported styles from src/index.css ---- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* basic type smoothing */
+html, body { margin:0; padding:0; }
+

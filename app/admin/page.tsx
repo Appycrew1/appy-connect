@@ -27,7 +27,7 @@ export default function Admin() {
     return (
       <main className="mx-auto max-w-xl p-6">
         <h1 className="text-2xl font-semibold">Admin</h1>
-        <p className="mt-3">Sign in to manage data.</p>
+        <p className="mt-3">Sign in with email + password to manage data.</p>
         <AuthUI />
       </main>
     );
