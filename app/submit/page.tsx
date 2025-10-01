@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { z } from 'zod';
-import { createSupabaseBrowserClient } from 'lib/supabase/client';
+import { createSupabaseBrowserClient } from "../../lib/supabase/client";
 
 const schema = z.object({
   company_name: z.string().min(2),
