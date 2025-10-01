@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { createSupabaseBrowserClient } from '@/lib/supabase/client';
+import { createSupabaseBrowserClient } from 'lib/supabase/client';
 
 type Provider = {
   id: string; name: string; is_active: boolean; is_featured: boolean;
